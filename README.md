@@ -30,7 +30,7 @@ The following are the steps to calculate Standard Effective Temperature using py
 
 11. Run extract-data-pyfluent.py This will create a new folder (exported_data) in the directory of this script. This will contain your extracted domain_data_clean.csv. This file will be used to calculate the value of Standard Effective Temperature using pythermalcomfort library.
 
-12. Run calc-set.py. You will get a new file calculated_SET_results.csv with last column filled with SET values. Each row represents the cell location with x v z coordinates. Total number of rows is equal to the total mesh cell in your CFD domain.
+12. Run calc-set.py. You will get a new file calculated_SET_results.csv with last column filled with SET values. Each row represents the cell location with x y z coordinates. Total number of rows is equal to the total mesh cell in your CFD domain.
 
 13. Place the set_importer.c UDF file in your working directory of Fluent session.
 
