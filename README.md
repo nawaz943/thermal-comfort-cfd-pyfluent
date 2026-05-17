@@ -1,2 +1,2 @@
 # thermal-comfort-cfd-pyfluent
-Calculate DBT, RH, V, MRT using Ansys Fluent. Extract these four values from the whole CFD domain to calculate Standard Effective Temperature using pythermalcomfort library. Inject SET from pythermalcomfort in your full CFD domain in Fluent. View contours of SET in Fluent. THE ACCURATE PIPLINE FOR CALCULATING SET FROM CFD RESULTS.
+Calculate DBT, RH, V, MRT using Ansys Fluent. Extract these four values from the whole CFD domain to calculate Standard Effective Temperature using pythermalcomfort library. Inject SET from pythermalcomfort in your full CFD domain in Fluent. View contours of SET in Fluent. THE ACCURATE PIPLINE FOR CALCULATING SET FROM CFD RESULTS. ESPECIALLY FOR VERY LARGE SCALE OUTDOOR THERMAL COMFORT PROJECTS
