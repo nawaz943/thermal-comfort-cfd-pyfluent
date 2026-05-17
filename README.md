@@ -38,7 +38,7 @@ The following are the steps to calculate Standard Effective Temperature using py
 
 15. Go to Fluent. Allocate User Defined Memory to 1 manually by GUI or TUI command. This will created UDM 0.
 
-15.1. The set_importer.c carries out two tasks. First, it changes the name of UDM 0 to set-comfort. Second, it reads the coordinates and SET values from the csv file and injects them in the UDM0 (set-comfort) of Fluent session parallely. 
+15.1. The set_importer.c carries out two tasks. First, it changes the name of UDM 0 to set-comfort. Second, it reads the coordinates and SET values from the csv file and injects them in the UDM0 (set-comfort) of Fluent session parallelly. 
 
 16. Run inject-set.py This will carry out the injection of SET in Fluent Session.
 
