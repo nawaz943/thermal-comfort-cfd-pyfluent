@@ -1,5 +1,5 @@
 # thermal-comfort-cfd-pyfluent
-Calculate DBT, RH, V, MRT using Ansys Fluent. Extract these four values from the whole CFD domain to calculate Standard Effective Temperature using pythermalcomfort library. Inject SET from pythermalcomfort in your full CFD domain in Fluent. View contours of SET in Fluent. THE ACCURATE PIPLINE FOR CALCULATING SET FROM CFD RESULTS. ESPECIALLY FOR VERY LARGE SCALE OUTDOOR THERMAL COMFORT PROJECTS.
+Calculate DBT, RH, V, MRT using Ansys Fluent. Extract these four values from the whole CFD domain to calculate Standard Effective Temperature using pythermalcomfort library. Inject SET from pythermalcomfort in your full CFD domain in Fluent. View contours of SET in Fluent. THE ACCURATE PIPELINE FOR CALCULATING SET FROM CFD RESULTS. ESPECIALLY FOR VERY LARGE SCALE OUTDOOR THERMAL COMFORT PROJECTS.
 
 # Please read the PDF of problem statement in this repository
 
@@ -20,7 +20,7 @@ The following are the steps to calculate Standard Effective Temperature using py
 
 7. Hit enter again with default text file details. A text file will be created in your working directory. Example: server_info-59024.txt
 
-7.1 Change all the paths of input output files and working directory of ansys files in all the scripts as per your requirement. Before running any script confirm the paths.
+7.1 Change all the paths of input output files and working directory of ansys files in all the scripts as per your requirement. Before running any script confirm the paths (location of csv files, UDFs, working directory, etc.
 
 8. This file will allow PyFluent library to communicate with currently open Fluent session.
 
@@ -50,4 +50,6 @@ The following are the steps to calculate Standard Effective Temperature using py
 
 20. For backgroud and theory read the PDF in this repository.
 
-# if you face any issue in injection of contours using this script. You can contact me for help.
+# if you face any issue in injection of contours using this script, you can contact me for help.
+
+# More tools are being developed for automating CFD workflows in Ansys Fluent using pyfluent. Please keep an eye on my GitHub repository.
