@@ -44,4 +44,10 @@ The following are the steps to calculate Standard Effective Temperature using py
 
 17. Finish.
 
-18. Go to Fluent. View and postprocess the SET contour under User Defined Memory - set-comfort. 
+18. Go to Fluent. View and postprocess the SET contour under User Defined Memory - set-comfort.
+   
+19. You can also export this contour to view in Paraview (EnSight Gold case) or CFD-Post for postprocessing.
+
+20. For backgroud and theory read the PDF in this repository.
+
+# if you face any issue during injecting contours using this script. You can contact me for help.
