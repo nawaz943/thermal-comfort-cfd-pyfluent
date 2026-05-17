@@ -50,4 +50,4 @@ The following are the steps to calculate Standard Effective Temperature using py
 
 20. For backgroud and theory read the PDF in this repository.
 
-# if you face any issue during injecting contours using this script. You can contact me for help.
+# if you face any issue in injection of contours using this script. You can contact me for help.
