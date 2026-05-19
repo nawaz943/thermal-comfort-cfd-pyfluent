@@ -19,6 +19,8 @@ if not os.path.exists(output_dir):
 print("--- PHASE 1: UNIVERSAL PRECISION EXTRACTION ---")
 
 try:
+    # for one fluid zone. Use the line below to target only one fluid zone. Example cylinder or wind tunnel. 
+    # fluid_zones = ["cylinder"]
     # Dynamically find all Fluid zones
     fluid_zones = list(session.settings.setup.cell_zone_conditions.fluid.keys())
     print(f"Targeting Fluid Bodies: {fluid_zones}")
