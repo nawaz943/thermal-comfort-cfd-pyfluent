@@ -43,6 +43,12 @@ try:
             # SAFETY: Clip velocity (SET model is stable between 0.1 and 5.0 m/s)
             v = np.clip(chunk['velocity-magnitude'].values, 0.1, 5.0)
 
+            # Strict Velocity Cap (Force anything above 5.0 m/s down to 5.0 m/s). The lines below when you have in your domain velocities above 5 m/s.
+            # v_raw = chunk['velocity-magnitude'].values
+            # v = np.where(v_raw > 5.0, 5.0, v_raw)
+            # v = np.where(v < 0.1, 0.1, v)
+
+            
             # 2. Calculate SET with strictly limited inputs to prevent iteration errors
             results = set_tmp(
                 tdb=tdb, 
